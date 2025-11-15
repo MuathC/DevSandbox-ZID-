@@ -7,8 +7,11 @@ from urllib.parse import urlencode
 from flask import Flask, redirect, request, jsonify
 import requests
 import boto3
+import logging  # Import logging
 
 app = Flask(__name__)
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 # === CONFIG ===
 CLIENT_ID = int(os.getenv("ZID_CLIENT_ID", "5410"))
@@ -73,13 +76,58 @@ def save_merchant_tokens(store_id, token_resp, manager_token):
     save_db(db_data)
     print(f"Saved tokens for store {store_id}")
 
+def token_is_expired(expires_at):
+    """Check if token has expired (with 60 second safety margin)."""
+    if not expires_at:
+        return True
+    return time.time() >= (expires_at - 60)
+
 def get_merchant_by_store_id(store_id):
     """Fetches merchant data from the JSON file by store_id."""
     db_data = load_db()
     merchant = db_data.get(store_id)
     
-    # You should add refresh logic here if token_is_expired(merchant['expires_at'])
+    # Check if token needs refresh
+    if merchant and token_is_expired(merchant.get('expires_at')):
+        print(f"Token expired for store {store_id}, attempting refresh...")
+        refreshed = refresh_merchant_token(store_id)
+        if refreshed:
+            merchant = refreshed
+    
     return merchant
+
+def refresh_merchant_token(store_id):
+    """Refreshes the access token for a merchant using their refresh token."""
+    db_data = load_db()
+    merchant = db_data.get(store_id)
+    
+    if not merchant or not merchant.get("refresh_token"):
+        print(f"No refresh token found for store {store_id}")
+        return None
+    
+    payload = {
+        "grant_type": "refresh_token",
+        "refresh_token": merchant["refresh_token"],
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+        "redirect_uri": REDIRECT_URI,
+    }
+    
+    try:
+        resp = requests.post(TOKEN_URL, data=payload, timeout=10)
+        if resp.status_code != 200:
+            print(f"Token refresh failed: {resp.status_code} {resp.text}")
+            return None
+        
+        token_resp = resp.json()
+        # Update the merchant's tokens
+        save_merchant_tokens(store_id, token_resp, merchant.get("manager_token"))
+        
+        # Return the updated merchant data
+        return load_db().get(store_id)
+    except Exception as e:
+        print(f"Error refreshing token: {e}")
+        return None
 
 def get_store_info_from_token(token_resp):
     """
@@ -114,19 +162,56 @@ def get_store_info_from_token(token_resp):
 
 @app.route("/")
 def index():
+    logger.debug("index route")
+    logger.info("index route")
+    logger.warning("index route")
+    logger.error("index route")
+    logger.critical("index route")
+    app.logger.debug("index route")
+    app.logger.info("index route")
+    app.logger.warning("index route")
+    app.logger.error("index route")
+    app.logger.critical("index route")
     return "<p>My Recommendation App Backend. Use /install to start.</p>"
 
 @app.route("/install")
 def install():
     scopes = request.args.get("scopes", "read_products,read_orders")
     redirect_url = f"{AUTHORIZE_URL}?{urlencode({'client_id': CLIENT_ID, 'redirect_uri': REDIRECT_URI, 'response_type': 'code', 'scope': scopes})}"
+    
+    logger.info("=" * 50)
+    logger.info("INSTALL ROUTE HIT")
+    logger.info(f"Client ID: {CLIENT_ID}")
+    logger.info(f"Redirect URI: {REDIRECT_URI}")
+    logger.info(f"Scopes: {scopes}")
+    logger.info(f"Redirecting to: {redirect_url}")
+    logger.info("=" * 50)
+    
     return redirect(redirect_url)
 
 @app.route("/callback")
 def callback():
+    # Log all incoming parameters for debugging
+    logger.info("=" * 50)
+    logger.info("CALLBACK ROUTE HIT")
+    logger.info(f"Full URL: {request.url}")
+    logger.info(f"Request method: {request.method}")
+    logger.info(f"Query parameters: {dict(request.args)}")
+    logger.info(f"Headers: {dict(request.headers)}")
+    logger.info("=" * 50)
+    
     code = request.args.get("code")
+    error = request.args.get("error")
+    
+    if error:
+        logger.error(f"OAuth error received: {error}")
+        error_description = request.args.get("error_description", "No description")
+        return f"Error from Zid OAuth: {error}<br>Description: {error_description}", 400
+    
     if not code:
-        return "Missing code parameter", 400
+        logger.error("No code parameter received!")
+        logger.error(f"All parameters received: {list(request.args.keys())}")
+        return f"Missing code parameter.<br>Received parameters: {list(request.args.keys())}<br>Full URL: {request.url}", 400
 
     payload = {
         "grant_type": "authorization_code",
@@ -156,6 +241,62 @@ def callback():
     # 3. Update the merchant's entry in merchants.json with the real tracking_id and campaign_arn
 
     return f"App installed successfully for store {store_id}!"
+
+@app.route("/refresh", methods=["POST", "GET"])
+def refresh():
+    """
+    Manually refresh tokens for a specific store.
+    Query param: store_id
+    """
+    store_id = request.args.get("store_id")
+    if not store_id:
+        return jsonify({"error": "store_id parameter required"}), 400
+    
+    merchant = load_db().get(store_id)
+    if not merchant:
+        return jsonify({"error": f"No merchant found for store_id {store_id}"}), 404
+    
+    refreshed = refresh_merchant_token(store_id)
+    if refreshed:
+        return jsonify({
+            "message": "Tokens refreshed successfully",
+            "store_id": store_id,
+            "expires_at": refreshed.get("expires_at")
+        })
+    else:
+        return jsonify({"error": "Failed to refresh tokens"}), 500
+
+@app.route("/profile")
+def profile():
+    """
+    Demo route: fetches the merchant's profile from Zid API.
+    Query param: store_id
+    """
+    store_id = request.args.get("store_id")
+    if not store_id:
+        return jsonify({"error": "store_id parameter required"}), 400
+    
+    merchant = get_merchant_by_store_id(store_id)
+    if not merchant:
+        return jsonify({"error": f"No merchant found for store_id {store_id}"}), 404
+    
+    try:
+        auth_token = merchant.get("access_token")
+        manager_token = merchant.get("manager_token") or auth_token
+        
+        headers = {
+            "Authorization": f"Bearer {auth_token}",
+            "X-MANAGER-TOKEN": manager_token,
+            "Accept": "application/json",
+            "Accept-Language": "en",
+        }
+        url = API_BASE + "/app/v1/managers/account/profile"
+        r = requests.get(url, headers=headers, timeout=10)
+        r.raise_for_status()
+        
+        return jsonify(r.json())
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 # === API ENDPOINTS (No changes needed here) ===
 
@@ -216,3 +357,7 @@ def get_related_items():
 if __name__ == "__main__":
     # The JSON file will be created automatically on first install
     app.run(host="0.0.0.0", port=5000, debug=True)
+else:
+    gunicorn_logger = logging.getLogger('gunicorn.error')
+    app.logger.handlers = gunicorn_logger.handlers
+    app.logger.setLevel(gunicorn_logger.level)

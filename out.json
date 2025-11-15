@@ -1,0 +1,1070 @@
+{
+  "total_products_count": 16,
+  "normal_products_count": 16,
+  "voucher_products_count": 0,
+  "grouped_products_count": 0,
+  "downloadable_products_count": 0,
+  "dynamic_bundle_products_count": 0,
+  "donation_item_count": 0,
+  "crowd_funding_count": 0,
+  "next": "http://api.zid.sa/v1/products/?page=2",
+  "previous": null,
+  "count": 16,
+  "results": [
+    {
+      "id": "eb267de3-ec97-4174-85c9-aef10c30daa1",
+      "product_class": null,
+      "sku": "Z.17632028368336728",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "Amazon Basics USB-C to USB-A 2.0 Fast Charger Cable, 480Mbps Speed, USB-IF Certified"
+      },
+      "slug": "amazon-basics-usb-c-to-usb-a-20-fast-charger-cable-480mbps-speed-usb-if-certified",
+      "price": 0.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 0.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421495",
+          "name": { "en": "", "ar": "اسلاك" },
+          "slug": "اسلاك",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "f6e92f7b-47b7-427f-a19b-d6b130c169a7",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/f6e92f7b-47b7-427f-a19b-d6b130c169a7-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/f6e92f7b-47b7-427f-a19b-d6b130c169a7-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/f6e92f7b-47b7-427f-a19b-d6b130c169a7-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/f6e92f7b-47b7-427f-a19b-d6b130c169a7-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/f6e92f7b-47b7-427f-a19b-d6b130c169a7-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 0,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/amazon-basics-usb-c-to-usb-a-20-fast-charger-cable-480mbps-speed-usb-if-certified",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "3ec9c67a-968d-49f8-9831-975ded5001ef",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 0,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:33:56.839743Z",
+      "updated_at": "2025-11-15T10:56:02.721161Z"
+    },
+    {
+      "id": "57a75154-32dd-4ab8-8440-11d7863c9ab1",
+      "product_class": null,
+      "sku": "Z.17632028020803308",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "18W PD Type C Charger, USB c Block Power Adapter Saudi Arabia"
+      },
+      "slug": "18w-pd-type-c-charger-usb-c-block-power-adapter-saudi-arabia",
+      "price": 123.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 123.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421496",
+          "name": { "en": "", "ar": "افياش" },
+          "slug": "افياش",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "bd33a212-faf9-4264-9cc3-b0cc30ec3dbd",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/bd33a212-faf9-4264-9cc3-b0cc30ec3dbd-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/bd33a212-faf9-4264-9cc3-b0cc30ec3dbd-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/bd33a212-faf9-4264-9cc3-b0cc30ec3dbd-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/bd33a212-faf9-4264-9cc3-b0cc30ec3dbd-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/bd33a212-faf9-4264-9cc3-b0cc30ec3dbd-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 32,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/18w-pd-type-c-charger-usb-c-block-power-adapter-saudi-arabia",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "18c712a2-e2b3-45e5-91f8-806fb281c085",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 32,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:33:22.086216Z",
+      "updated_at": "2025-11-15T10:57:03.526005Z"
+    },
+    {
+      "id": "10811dc4-2df0-4956-89c6-6f23bb59c68a",
+      "product_class": null,
+      "sku": "Z.17632027700253286",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "USB C to USB C Fast Charging Cable, Type C Charger Cord (1 m)"
+      },
+      "slug": "usb-c-to-usb-c-fast-charging-cable-type-c-charger-cord-1-m",
+      "price": 0.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 0.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421495",
+          "name": { "en": "", "ar": "اسلاك" },
+          "slug": "اسلاك",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "af8d2b4c-56da-49b6-a30c-a12afca5d619",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/af8d2b4c-56da-49b6-a30c-a12afca5d619-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/af8d2b4c-56da-49b6-a30c-a12afca5d619-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/af8d2b4c-56da-49b6-a30c-a12afca5d619-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/af8d2b4c-56da-49b6-a30c-a12afca5d619-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/af8d2b4c-56da-49b6-a30c-a12afca5d619-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 0,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/usb-c-to-usb-c-fast-charging-cable-type-c-charger-cord-1-m",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "12d3760d-1e0b-4f07-9d40-1c9d6fe8eb64",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 0,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:32:50.035274Z",
+      "updated_at": "2025-11-15T10:56:34.289715Z"
+    },
+    {
+      "id": "078fb441-ab6f-486a-a1db-4abd2e627bda",
+      "product_class": null,
+      "sku": "Z.17632027370669205",
+      "barcode": "",
+      "parent_id": null,
+      "name": { "ar": "Apple iPhone 16 Pro Max 512GB 5G Desert Titanium" },
+      "slug": "apple-iphone-16-pro-max-512gb-5g-desert-titanium",
+      "price": 4384.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 4,384.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421500",
+          "name": { "en": "", "ar": "جوال" },
+          "slug": "جوال",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "513880d5-fcea-425e-999c-97bc0e00f447",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/513880d5-fcea-425e-999c-97bc0e00f447-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/513880d5-fcea-425e-999c-97bc0e00f447-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/513880d5-fcea-425e-999c-97bc0e00f447-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/513880d5-fcea-425e-999c-97bc0e00f447-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/513880d5-fcea-425e-999c-97bc0e00f447-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 12,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/apple-iphone-16-pro-max-512gb-5g-desert-titanium",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "5ffd0f4d-4e13-4bad-b787-19977036acf5",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 12,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:32:17.072406Z",
+      "updated_at": "2025-11-15T11:02:33.349041Z"
+    },
+    {
+      "id": "08b9b372-5321-4ac4-88dd-d4c7b2934389",
+      "product_class": null,
+      "sku": "Z.1763202701083994",
+      "barcode": "",
+      "parent_id": null,
+      "name": { "ar": "pixel 9 pro" },
+      "slug": "pixel-9-pro",
+      "price": 3879.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 3,879.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421500",
+          "name": { "en": "", "ar": "جوال" },
+          "slug": "جوال",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "197340cc-f4a1-42a6-8a7d-bacdcafc2531",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/197340cc-f4a1-42a6-8a7d-bacdcafc2531-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/197340cc-f4a1-42a6-8a7d-bacdcafc2531-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/197340cc-f4a1-42a6-8a7d-bacdcafc2531-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/197340cc-f4a1-42a6-8a7d-bacdcafc2531-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/197340cc-f4a1-42a6-8a7d-bacdcafc2531-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 23,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/pixel-9-pro",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "9c162fa4-4dcf-45db-997d-d0fb95ca54d4",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 23,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:31:41.107890Z",
+      "updated_at": "2025-11-15T11:03:13.645989Z"
+    },
+    {
+      "id": "72985910-b7e3-46b1-8c40-24e0e6c0209f",
+      "product_class": null,
+      "sku": "Z.17632026700376124",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "Mobile Phones Buy, Best Price in Saudi Arabia, Riyadh, Jeddah, Medina, Dammam, Mecca"
+      },
+      "slug": "mobile-phones-buy-best-price-in-saudi-arabia-riyadh-jeddah-medina-dammam-mecca",
+      "price": 0.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 0.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421500",
+          "name": { "en": "", "ar": "جوال" },
+          "slug": "جوال",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "b0de7244-f61e-4506-8828-a0fb6f922861",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/b0de7244-f61e-4506-8828-a0fb6f922861-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/b0de7244-f61e-4506-8828-a0fb6f922861-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/b0de7244-f61e-4506-8828-a0fb6f922861-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/b0de7244-f61e-4506-8828-a0fb6f922861-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/b0de7244-f61e-4506-8828-a0fb6f922861-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 0,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/mobile-phones-buy-best-price-in-saudi-arabia-riyadh-jeddah-medina-dammam-mecca",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "49fbf54a-03f4-4e52-b212-f35f0e31585c",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 0,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:31:10.049422Z",
+      "updated_at": "2025-11-15T11:03:41.177033Z"
+    },
+    {
+      "id": "5181c31e-7155-4af5-86ab-706bc5ed1a35",
+      "product_class": null,
+      "sku": "Z.17632026191260989",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "Cell Phones,Smartphone,M80 Mobile Phone,Unlocked Fingerprint,6.7inch"
+      },
+      "slug": "cell-phonessmartphonem80-mobile-phoneunlocked-fingerprint67inch",
+      "price": 1231.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 1,231.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421500",
+          "name": { "en": "", "ar": "جوال" },
+          "slug": "جوال",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "7d8fc549-8800-4b0f-83aa-f1d101897a7e",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/7d8fc549-8800-4b0f-83aa-f1d101897a7e-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/7d8fc549-8800-4b0f-83aa-f1d101897a7e-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/7d8fc549-8800-4b0f-83aa-f1d101897a7e-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/7d8fc549-8800-4b0f-83aa-f1d101897a7e-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/7d8fc549-8800-4b0f-83aa-f1d101897a7e-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        },
+        {
+          "id": "a748a6f5-4e1e-4344-a949-1d1300422417",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/a748a6f5-4e1e-4344-a949-1d1300422417-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/a748a6f5-4e1e-4344-a949-1d1300422417-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/a748a6f5-4e1e-4344-a949-1d1300422417-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/a748a6f5-4e1e-4344-a949-1d1300422417-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/a748a6f5-4e1e-4344-a949-1d1300422417-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 2,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 23,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/cell-phonessmartphonem80-mobile-phoneunlocked-fingerprint67inch",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "79220445-9c90-47b8-810f-c2541f9e1135",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 23,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:30:19.135210Z",
+      "updated_at": "2025-11-15T11:04:07.897357Z"
+    },
+    {
+      "id": "658ce765-f9a8-4502-ae2f-ca312c66107c",
+      "product_class": null,
+      "sku": "Z.17632025979585936",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "Belkin 10000mAh portable power bank, 10K USB, C portable charger with 1 USB, C port and"
+      },
+      "slug": "belkin-10000mah-portable-power-bank-10k-usb-c-portable-charger-with-1-usb-c-port-and",
+      "price": 0.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 0.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421503",
+          "name": { "en": "", "ar": "شاحن متنقل" },
+          "slug": "شاحن-متنقل",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 0,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/belkin-10000mah-portable-power-bank-10k-usb-c-portable-charger-with-1-usb-c-port-and",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "75691839-6ba0-47e0-bdf5-d8b64246d98d",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 0,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:29:57.964942Z",
+      "updated_at": "2025-11-15T11:04:45.456175Z"
+    },
+    {
+      "id": "3f743ba9-142f-4031-9413-a1dfb2014a5f",
+      "product_class": null,
+      "sku": "Z.17632025682664013",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "Sandberg Powerbank USB-C PD 130W 50000 (420-75) - Sandberg A/S"
+      },
+      "slug": "sandberg-powerbank-usb-c-pd-130w-50000-420-75-sandberg-as",
+      "price": 412.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 412.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421503",
+          "name": { "en": "", "ar": "شاحن متنقل" },
+          "slug": "شاحن-متنقل",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "121057b8-6b98-468c-8aab-289815af7423",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/121057b8-6b98-468c-8aab-289815af7423-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/121057b8-6b98-468c-8aab-289815af7423-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/121057b8-6b98-468c-8aab-289815af7423-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/121057b8-6b98-468c-8aab-289815af7423-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/121057b8-6b98-468c-8aab-289815af7423-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 12,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/sandberg-powerbank-usb-c-pd-130w-50000-420-75-sandberg-as",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "5413651f-4679-4fc5-bbd8-4066f398ff6d",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 12,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:29:28.271785Z",
+      "updated_at": "2025-11-15T11:05:01.473441Z"
+    },
+    {
+      "id": "81107303-8ae9-4608-b75f-985bc9140955",
+      "product_class": null,
+      "sku": "Z.17632024970251365",
+      "barcode": "",
+      "parent_id": null,
+      "name": {
+        "ar": "Anker Nano Power Bank Charger Fast Battery Charging 10000 mAh - Jarir Bookstore KSA"
+      },
+      "slug": "anker-nano-power-bank-charger-fast-battery-charging-10000-mah-jarir-bookstore-ksa",
+      "price": 0.0,
+      "short_description": { "ar": "", "en": "" },
+      "sale_price": null,
+      "formatted_price": " SAR 0.00",
+      "formatted_sale_price": null,
+      "currency": "SAR",
+      "currency_symbol": " SAR ",
+      "attributes": [],
+      "categories": [
+        {
+          "id": "1421503",
+          "name": { "en": "", "ar": "شاحن متنقل" },
+          "slug": "شاحن-متنقل",
+          "description": { "en": "", "ar": "" },
+          "cover_image": null,
+          "image": null,
+          "display_order": null,
+          "meta": { "childs": [], "parents": [] }
+        }
+      ],
+      "display_order": null,
+      "has_options": false,
+      "has_fields": false,
+      "images": [
+        {
+          "id": "8ffadf65-260f-4732-9240-d07904a38c50",
+          "image": {
+            "large": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/8ffadf65-260f-4732-9240-d07904a38c50-thumbnail-1000x1000.png",
+            "medium": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/8ffadf65-260f-4732-9240-d07904a38c50-thumbnail-770x770.png",
+            "full_size": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/8ffadf65-260f-4732-9240-d07904a38c50-thumbnail-1000x1000.png",
+            "thumbnail": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/8ffadf65-260f-4732-9240-d07904a38c50-thumbnail-370x370.png",
+            "small": "https://media.zid.store/thumbs/3ab89d17-1995-4644-b0c5-9ac827c86945/8ffadf65-260f-4732-9240-d07904a38c50-thumbnail-500x500.png"
+          },
+          "alt_text": "",
+          "display_order": 1,
+          "i18n_alt_text": { "ar": "", "en": "" }
+        }
+      ],
+      "videos": [],
+      "is_draft": false,
+      "quantity": 0,
+      "is_infinite": false,
+      "html_url": "https://m5dzci.zid.store/products/anker-nano-power-bank-charger-fast-battery-charging-10000-mah-jarir-bookstore-ksa",
+      "weight": { "value": null, "unit": "kg" },
+      "keywords": [],
+      "requires_shipping": true,
+      "is_taxable": true,
+      "structure": "standalone",
+      "seo": {
+        "title": { "ar": "", "en": "" },
+        "description": { "ar": "", "en": "" }
+      },
+      "rating": {
+        "average": 0,
+        "total_count": 0,
+        "1_ratings": { "percentage": 0, "count": 0 },
+        "2_ratings": { "percentage": 0, "count": 0 },
+        "3_ratings": { "percentage": 0, "count": 0 },
+        "4_ratings": { "percentage": 0, "count": 0 },
+        "5_ratings": { "percentage": 0, "count": 0 }
+      },
+      "store_id": 2803554,
+      "purchase_restrictions": {
+        "min_quantity_per_cart": null,
+        "max_quantity_per_cart": null,
+        "availability_period_start": null,
+        "availability_period_end": null,
+        "sale_price_period_start": null,
+        "sale_price_period_end": null
+      },
+      "metafields": [],
+      "meta": null,
+      "related_products_settings": "AUTO_GENERATED",
+      "related_products_title": { "ar": "", "en": "" },
+      "badge": null,
+      "cost": 0.0,
+      "is_published": true,
+      "waiting_customers_count": null,
+      "group_products": null,
+      "stocks": [
+        {
+          "id": "e07d2d84-bbe3-4135-9a6f-4835e04b0f1d",
+          "location": {
+            "id": "415617cc-efde-4720-a5d8-d7c25fed8ade",
+            "name": { "en": "سانبة" },
+            "type": "PHYSICAL",
+            "full_address": "6794 Ibn Abd Al Jabbar, 3902, An Nuzhah, Riyadh 12472, Saudi Arabia"
+          },
+          "available_quantity": 0,
+          "is_infinite": false
+        }
+      ],
+      "sold_products_count": null,
+      "created_at": "2025-11-15T10:28:17.031653Z",
+      "updated_at": "2025-11-15T11:05:20.548254Z"
+    }
+  ]
+}
