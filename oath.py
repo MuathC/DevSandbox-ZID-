@@ -13,7 +13,7 @@ app = Flask(__name__)
 # === CONFIG ===
 CLIENT_ID = int(os.getenv("ZID_CLIENT_ID", "5410"))
 CLIENT_SECRET = os.getenv("ZID_CLIENT_SECRET", "1ACdU5lGCsCCw0iOPPEKkWfLyMVaIcbopDOjaahO")
-REDIRECT_URI = os.getenv("ZID_REDIRECT_URI", "https://m5dzci.zid.store")
+REDIRECT_URI = "https://asnb-app.duckdns.org/callback"
 
 OAUTH_BASE = "https://oauth.zid.sa"
 AUTHORIZE_URL = f"{OAUTH_BASE}/oauth/authorize"
