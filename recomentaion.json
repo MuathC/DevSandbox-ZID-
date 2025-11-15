@@ -1,0 +1,21 @@
+{
+    "itemList": [
+      {
+        "itemId": "P456"
+      },
+      {
+        "itemId": "P130"
+      },
+      {
+        "itemId": "C770"
+      },
+      {
+        "itemId": "D404"
+      },
+      {
+        "itemId": "A112"
+      }
+    ],
+    "recommendationId": "rid-12345678-1a2b-3c4d-5e6f-123456789abc"
+  }
+  
